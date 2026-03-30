@@ -102,8 +102,8 @@ r_t = 0.5*(d_{t-1} - d_t) - 0.001 + r_upright + r_terminal
 ## 🙏 Acknowledgments
 
 - **Assets**: 
-  - [PBR Racing Drone](https://assetstore.unity.com/packages/3d/vehicles/air/pbr-racing-drone-59751?srsltid=AfmBOop3NtzRlwhv-41Utkvh3fRiJrMKwiQodaFLxWgaGDdRJrSAtCaA)
-  - [Low Poly Nature Pack](https://assetstore.unity.com/...](https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153?srsltid=AfmBOorDtnp7c2YJke3KIYKSZQ0-gS2Am5uJKjSpoZ0C-AD5zH5Ktp5p))
+  - [PBR Racing Drone](https://assetstore.unity.com/packages/3d/vehicles/air/pbr-racing-drone-59751)
+  - [Low Poly Nature Pack](https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153)
 - **Development Support**: Claude AI (Anthropic) for coding assistance
 - **References**: Unity ML-Agents Documentation, PPO paper (Schulman et al., 2017)
 
