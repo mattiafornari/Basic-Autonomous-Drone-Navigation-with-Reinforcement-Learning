@@ -119,35 +119,3 @@ Mattia Fornari - [email] - [LinkedIn]
 
 Project Link: [https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning](https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning)
 ```
-
----
-
-## 🗂️ .gitignore Template
-```
-# Unity generated
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-
-# Visual Studio cache
-.vs/
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.user
-
-# OS generated
-.DS_Store
-Thumbs.db
-
-# ML-Agents results (large files)
-results/*/events.out.tfevents.*
-
-# Keep .onnx models
-!results/**/*.onnx
-!results/**/configuration.yaml
