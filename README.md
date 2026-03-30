@@ -91,8 +91,21 @@ Documentation/       # Report & figures
 - Thrust, Pitch, Roll, Yaw (continuous [-1, 1])
 
 ### Reward Function
+The reward at timestep *t* is computed as:
 ```
-r_t = 0.5*(d_{t-1} - d_t) - 0.001 + r_upright + r_terminal
+r_t = r_progress + r_time + r_upright + r_altitude + r_collision + r_terminal
+```
+
+Where:
+
+- **r_progress** = `0.5 × (d_{t-1} - d_t)` — progress toward goal
+- **r_time** = `-0.001` — step penalty (encourages efficiency)
+- **r_upright** = `0.02 × (uprightness - 0.7)` if uprightness < 0.7, else 0 — penalizes excessive tilting
+- **r_altitude** = `-0.003` if height_error < -20m — penalizes flying too low
+- **r_collision** = `-3` (ground/boundary) or `-5` (obstacle)
+- **r_terminal** = `+15` (success) | `-5` (out of bounds)
+
+Uprightness is defined as the dot product between the drone's up vector and world up: `up · (0,1,0)`
 ```
 
 ## 📖 Documentation
