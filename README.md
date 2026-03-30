@@ -98,8 +98,6 @@ r_t = 0.5*(d_{t-1} - d_t) - 0.001 + r_upright + r_terminal
 ## 📖 Documentation
 
 - [Full Report](Documentation/Report.pdf)
-- [Progress Report](Documentation/ProgressReport.pdf)
-- [Project Proposal](Documentation/ProjectProposal.pdf)
 
 ## 🙏 Acknowledgments
 
@@ -112,10 +110,6 @@ r_t = 0.5*(d_{t-1} - d_t) - 0.001 + r_upright + r_terminal
 ## 📄 License
 
 This project is licensed under the MIT License - see LICENSE file for details.
-
-## 📧 Contact
-
-Mattia Fornari - [email] - [LinkedIn]
 
 Project Link: [https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning](https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning)
 ```
