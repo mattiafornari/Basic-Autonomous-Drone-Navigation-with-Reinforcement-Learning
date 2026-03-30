@@ -35,11 +35,11 @@ A Unity-based simulation of autonomous quadcopter navigation using Deep Reinforc
 
 ## 📊 Results
 
-| Metric | Empty Scene | Few Obstacles |
+| Metric | Few Obstacles |
 |--------|-------------|---------------|
-| Success Rate | XX% | YY% |
-| Avg. Time | XX.Xs | YY.Ys |
-| Collisions | X.X | Y.Y |
+| Success Rate | 100% |
+| Avg. Time | 4.49s |
+| Collisions | 0 |
 
 ## 🚀 How to Run
 
