@@ -106,7 +106,7 @@ Where:
 - **r_terminal** = `+15` (success) | `-5` (out of bounds)
 
 Uprightness is defined as the dot product between the drone's up vector and world up: `up · (0,1,0)`
-```
+
 
 ## 📖 Documentation
 
