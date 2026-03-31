@@ -108,10 +108,6 @@ Where:
 Uprightness is defined as the dot product between the drone's up vector and world up: `up · (0,1,0)`
 
 
-## 📖 Documentation
-
-- [Full Report](Documentation/Report.pdf)
-
 ## 🙏 Acknowledgments
 
 - **Assets**: 
