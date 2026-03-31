@@ -121,4 +121,4 @@ Uprightness is defined as the dot product between the drone's up vector and worl
 This project is licensed under the MIT License - see LICENSE file for details.
 
 Project Link: [https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning](https://github.com/mattiafornari/Basic-Autonomous-Drone-Navigation-with-Reinforcement-Learning)
-```
+
