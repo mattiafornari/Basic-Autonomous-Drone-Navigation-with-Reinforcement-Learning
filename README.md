@@ -23,6 +23,7 @@ A Unity-based simulation of autonomous quadcopter navigation using Deep Reinforc
 - Python 3.10.12
 - PyTorch 2.2.2
 - TensorBoard
+- Blender 4.5
 
 ## 🎮 Features
 
